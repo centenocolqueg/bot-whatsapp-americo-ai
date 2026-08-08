@@ -1,0 +1,6 @@
+import os
+
+GROQ_API_KEY = os.getenv("GROQ_API_KEY", "")
+WHATSAPP_TOKEN = os.getenv("WHATSAPP_TOKEN", "")
+WHATSAPP_PHONE_NUMBER_ID = os.getenv("WHATSAPP_PHONE_NUMBER_ID", "")
+VERIFY_TOKEN = os.getenv("VERIFY_TOKEN", "")
